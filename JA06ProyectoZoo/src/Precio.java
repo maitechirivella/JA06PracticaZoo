@@ -22,6 +22,9 @@ public class Precio {
     public void mostrarPrecio(){
         System.out.println(this.getEuros());
     }
-    
+    @override
+    public String toString(){
+        return this.getEuros().toString();
+    }
     
 }
