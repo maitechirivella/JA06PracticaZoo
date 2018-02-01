@@ -25,7 +25,7 @@ public class AplicacionPrecio {
         q.euros=75.6;
         System.out.println("valor ="+ q.euros);
         
-        
+        System.out.println(p);
         
         
         
