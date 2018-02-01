@@ -19,6 +19,9 @@ public class Precio {
     public void setEuros(double euros) {
         this.euros = euros;
     }
+    public void mostrarPrecio(){
+        System.out.println(this.getEuros());
+    }
     
     
 }
